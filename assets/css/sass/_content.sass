@@ -1,0 +1,63 @@
+.contrast-content
+  width: 100%
+  max-width: 42rem  
+  margin: auto
+  padding: 0 2rem
+
+  h1
+    padding: 2rem 0 1.5rem
+    font-size: 2.5rem
+
+    +small
+      font-size: 3.125rem
+      padding: 2rem 0 3rem
+
+  p, ul, li
+    font-size: 1rem
+    line-height: 1.6em
+
+    +small
+      font-size: 1.25rem
+
+  p, ul, ol
+    padding-bottom: 1.5rem
+
+  h2
+    font-size: 1rem
+    font-weight: 500
+    padding-bottom: .5rem
+
+    +small
+      font-size: 1.25rem
+
+  a
+    color: $color-medium
+    text-decoration: none
+    box-shadow: inset 0 -3px 0 0 $color-blue
+    +easeall
+
+    &:hover
+      color: $color-dark
+      box-shadow: inset 0 -14px 0 0 $color-yellow
+      +easeall
+
+  code
+    font-size: .75em
+    padding: .125rem .25rem
+    background: rgba($color-medium, .05)
+    color: $color-code
+    box-shadow: 0 0 0 1px rgba($color-medium, .2)
+    border-radius: 2px
+    +font-mono
+
+  strong
+    color: $color-dark
+
+  blockquote
+    border-left: 1px solid rgba($color-medium, .5)
+    margin: 0 0 1.5rem .25rem
+
+    p
+      font-size: 1em
+      padding: 0 0 0 1.5rem
+

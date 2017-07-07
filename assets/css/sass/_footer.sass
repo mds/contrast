@@ -1,0 +1,130 @@
+.contrast-footer-wrapper
+  width: 100%
+  padding: 2rem 0 16rem
+  overflow: hidden
+  position: relative
+
+  +small
+    padding: 8rem 0 12rem
+
+footer
+  text-align: center
+  width: 20rem
+  height: 20rem
+  display: block
+  margin: auto
+  background: $color-dark
+  transform: rotate(45deg)
+  position: relative
+  color: $color-dark-medium
+  top: 4rem
+  +easeall
+
+  &:hover
+    transform: rotate(45deg) scale(1.05)
+    +easeall
+
+    div
+      transform: rotate(-45deg) scale(.95)
+      +easeall
+
+  +xsmall
+    top: 6rem
+    width: 24rem
+    height: 24rem
+
+  +small
+    width: 32rem
+    height: 32rem
+    top: 0
+    left: 0
+
+  div
+    transform: rotate(-45deg)
+    position: absolute
+    top: 4.5rem
+    left: 3.5rem
+    +easeall
+
+    +xsmall
+      top: 6.5rem
+      left: 5rem
+
+    +small
+      top: 6.25rem
+      left: 8.75rem
+
+  p
+    font-size: .75rem
+    font-weight: 300
+    letter-spacing: .025rem
+    color: $color-dark-medium
+
+    a
+      position: relative
+      display: inline-block
+      z-index: 10
+      +easeall
+
+      &:before
+        content: " "
+        width: 5rem
+        height: 2.5rem
+        display: block
+        position: absolute
+        background: $color-dark
+        top: -3rem
+        left: -1rem
+        //box-shadow: 0 0 0 10px $color-dark
+        z-index: 0
+        +easeall
+
+      &:hover:before
+        top: -5rem
+        +easeall
+
+  nav ul li a, a
+    color: white
+    text-decoration: none
+
+  nav
+    padding: 4rem 0
+
+    +small
+      padding: 8rem 0
+
+    ul li a
+      font-size: 1.125rem
+      position: relative
+
+.contrast-avatar
+  width: 32px
+  height: 32px
+  position: absolute
+  border-radius: 50%
+  top: -2.5rem
+  z-index: -10
+  //clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%)
+  +easeall
+
+  &-soffes
+    left: .5rem
+
+  &-mds
+    left: 0rem
+
+  &:hover
+    tranform: scale(1.1)
+    +easeall
+
+.contrast-legal a
+  color: $color-dark-medium
+  +easeall
+
+  &:hover
+    color: $color-white
+    +easeall
+
+.contrast-page-interior footer
+  top: 6rem
+  margin-bottom: 4rem

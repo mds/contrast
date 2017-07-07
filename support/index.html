@@ -1,0 +1,177 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description" content="Prototype" />
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="MobileOptimized" content="320" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui">
+    <link rel="shortcut icon" href="favicon.ico" />
+
+    <title>Contrast for Mac</title> 
+    <link rel="stylesheet" href="../assets/css/screen.css">
+    <link href="https://fonts.googleapis.com/css?family=Rubik:400,500,700" rel="stylesheet">
+
+    <meta name="description" content="A macOS app for quick access to WCAG color contrast ratios" />
+
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,500,600,700,800" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/screen.css">
+
+    <!-- Schema.org markup for Google+ -->
+    <meta itemprop="name" content="Contrast for UI">
+    <meta itemprop="description" content="A macOS app for quick access to WCAG color contrast ratios.">
+    <meta itemprop="image" content="http://mds-assets.s3.amazonaws.com/contrast/contrast-card-v0.1.png">
+
+    <!-- Twitter Card data -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@mds">
+    <meta name="twitter:title" content="Contrast for UI">
+    <meta name="twitter:description" content="A macOS app for quick access to WCAG color contrast ratios.">
+    <meta name="twitter:creator" content="@mds">
+    <meta name="twitter:image:src" content="http://mds-assets.s3.amazonaws.com/contrast/contrast-card-v0.1.png">
+
+    <!-- Open Graph data -->
+    <meta property="og:title" content="Contrast for UI" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="http://usecontrast.com" />
+    <meta property="og:image" content="http://mds-assets.s3.amazonaws.com/contrast/contrast-card-v0.1.png" />
+    <meta property="og:description" content="A macOS app for quick access to WCAG color contrast ratios." />
+    <meta property="og:site_name" content="Contrast for UI" />
+
+  </head>
+  
+  <body class="contrast-page-interior contrast-page-support">
+  
+    <div class="contrast-wrapper">
+
+      <nav>
+        <ul>
+          <li><a class="contrast-logo" href="/">
+                <svg><use xlink:href="../assets/img/contrast-logo.svg#target"></use></svg>
+                <span>Home</span>
+              </a>
+          </li>
+          <li><a href="/why">Why</a></li>
+          <li><a href="/press">Press</a></li>
+          <li><a class="active" href="/support">Support</a></li>
+        </ul>
+      </nav>
+
+      <div class="contrast-content">
+
+        <div class="contrast-title">
+          <h1>Support</h1>
+        </div>
+        
+        <h2>Do I really need check the colors I use in my designs?</h2>
+
+        <p>You don't have to check all of your colors, only ones you want people to be able to read. Logos and decorative elements aren't included in the WCAG guidelines.</p>
+
+        <h2>What's all this WCAG talk?</h2>
+
+        <p>Thought you'd never ask. Here is the <a href="https://www.w3.org/TR/WCAG20/#visual-audio-contrast">WCAG 2.0 Guidelines</a> section on color contrast and here are a few more links that go into a bit more detail: <a href="https://www.w3.org/WAI/WCAG20/quickref/#qr-visual-audio-contrast-contrast">How to meet WCAG 2.0</a>, <a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html">Understanding Success Criterion</a></p>
+
+        <h2>How many color ratios are there?</h2>
+
+        <p>There are technically 5 scores:</p>
+
+        <ol>
+          <li>AAA</li>
+          <li>AAA Large</li>
+          <li>AA</li>
+          <li>AA Large</li>
+          <li>Fail</li>
+        </ol>
+
+        <h2>Can you explain the scores to me?</h2>
+
+        <p>Sure can, keep scrolling through the next couple of sections.</p>
+
+        <h2>What does AAA mean?</h2>
+
+        <p>AAA means that your text has a contrast ratio of at least <strong>7.1</strong>. For example, <code>595959</code> text on a <code>ffffff</code> background and vide versa.</p>
+
+        <p>Note that in order to achieve a true AAA rating, section 1.4.8.1 of the WCAG also states that &quot;<em>Foreground and background colors can be selected by the user.</em>&quot; </p>
+
+        <p>So unless you're planning on creating that functionality in your website or app as well, there's really no reason to shoot for higher than AA, in our opinion.</p>
+
+        <p>This score is derived for people with low 20/80 vision. This visual acuity score is often not able to be corrected with glasses, etc.</p>
+
+        <p>Side note, 20/200 is <a href="http://www.afb.org/info/blindness-statistics/key-definitions-of-statistical-terms/25">legally blind</a>.</p>
+
+        <h2>What does AAA Large mean?</h2>
+
+        <p>AAA Large means that your large text has a contrast ratio of at least <strong>4.5</strong>, which is the same score as AA, which is why you won't see AAA Large as a visible score in the app. </p>
+
+        <p>The WCAG describes <code>14pt bold</code> and <code>18pt</code> as &quot;large&quot; sizes. This roughly translates to <code>18.5px</code> and <code>24px</code> @1x.</p>
+
+        <h2>What does AA mean?</h2>
+
+        <p>AA means that your text has a contrast ratio of at least <strong>4.5</strong>. For example, <code>757777</code> text on a <code>ffffff</code> background and vice versa.</p>
+
+        <p>There is empirical evidence that <a href="https://www.nei.nih.gov/eyedata/vision_impaired">visual acuity of 20/40</a> is associated with a contrast sensitivity loss of roughly 1.5, which is where the 4.5 score is derived.</p>
+
+        <h2>What does AA Large mean?</h2>
+
+        <p>AA Large means that your text has a contrast ratio of at least <strong>3.0</strong>. For example, <code>949595</code> text on a <code>ffffff</code> background.</p>
+
+        <p>This is the minimum level recommended by <a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/appendixE.html#ISO-9241-3">ISO-9241-3</a> and <a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/appendixE.html#ANSI-HFES-100-1988">ANSI-HFES-100-1988</a> for standard text and normal vision, which is where WCAG derived this score.</p>
+
+        <h2>What does Fail mean?</h2>
+
+        <p>Fail means that your text has a contrast ratio of <strong>2.9</strong> or lower. </p>
+
+        <h2>Why does the app say AA+?</h2>
+
+        <p>The <code>+</code> stands for <code>Large</code> in the app. We made the decision to abbreviate it so the scores would be similar in character length.</p>
+
+        <h2>What about mobile apps and their big sharp retina screens?</h2>
+
+        <p>There's a working draft of the <a href="https://www.w3.org/TR/mobile-accessibility-mapping/#contrast">WCAG Mobile guidelines</a> that says...</p>
+
+        <blockquote>
+        <p>Mobile devices are more likely than desktop/laptop devices to be used in varied environments including outdoors, where glare from the sun or other strong lighting sources is more likely. This scenario heightens the importance of use of good contrast for all users and may compound the challenges that users with low vision have accessing content with poor contrast on mobile devices.&quot;</p>
+        </blockquote>
+
+        <p>So while it is probably easier to see lighter text on a high resolution screen in a controlled environment, the use case for mobile is too unpredictable to risk going super light with text.</p>
+
+        <h2>Will the app be developed for any other platforms?</h2>
+
+        <p>No definite plans at the moment.</p>
+
+        <h2>My question wasn't answered. Help!</h2>
+        <p>Shoot an email to support@nothingmagical.com!</p>
+
+      </div>
+
+      <div class="contrast-headline-cta">
+        <a class="contrast-app-store" href="#">
+          <svg><use xlink:href="../assets/img/available-app-store.svg#target"></use></svg>
+          <span>Download on the Mac App Store</span>
+        </a>
+      </div>
+    
+      <footer>
+        <div>
+          <p class="contrast-made-by">Made by <a href="http://twitter.com/soffes">@soffes <img class="contrast-avatar contrast-avatar-soffes" src="../assets/img/soffes.png" alt="soffes" /></a> and <a href="http://twitter.com/mds">@mds <img class="contrast-avatar contrast-avatar-mds" src="../assets/img/mds.png" alt="mds" /></a></p>
+          <nav>
+            <ul>
+              <li><a href="/why">Why</a></li>
+              <li><a href="/press">Press</a></li>
+              <li><a href="/support">Support</a></li>
+            </ul>
+          </nav>
+          <p class="contrast-legal"><span class="copyright">©2017</span> <a href="http://nothingmagical.com">Nothing Magical, Inc</a>.</p>
+        </div>
+      </footer>
+
+  </div>
+
+  <script type="text/javascript" src="../assets/js/jquery-3.1.0.min.js"></script>
+  <script type="text/javascript" src="../assets/js/index.js"></script>
+
+  </body>
+</html>
+
+
