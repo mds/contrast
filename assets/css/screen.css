@@ -2657,6 +2657,30 @@ div.contrast-block-text {
   background: #39CCCC !important;
   transition: all .25s ease-out; }
 
+.contrast-avatar {
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  border-radius: 50%;
+  top: -2.5rem;
+  z-index: -10;
+  -webkit-clip-path: circle(50% at 50% 200%);
+          clip-path: circle(50% at 50% 200%);
+  left: 0;
+  right: 0;
+  margin: auto;
+  transition: all .25s ease-out; }
+  .contrast-avatar-soffes {
+    left: .5rem; }
+  .contrast-avatar-mds {
+    left: 0rem; }
+
+.contrast-avatar-link {
+  position: relative; }
+  .contrast-avatar-link:hover .contrast-avatar {
+    -webkit-clip-path: circle(50% at 50% 50%);
+            clip-path: circle(50% at 50% 50%); }
+
 .contrast-content {
   width: 100%;
   max-width: 42rem;
@@ -2712,84 +2736,55 @@ div.contrast-block-text {
 
 .contrast-footer-wrapper {
   width: 100%;
-  padding: 2rem 0 16rem;
   overflow: hidden;
-  position: relative; }
+  position: relative;
+  padding: 12rem 0 18rem; }
   @media (min-width: 640px) {
     .contrast-footer-wrapper {
-      padding: 8rem 0 12rem; } }
+      padding: 18rem 0; } }
 
 footer {
   text-align: center;
-  width: 20rem;
-  height: 20rem;
   display: block;
   margin: auto;
-  background: #111112;
-  -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
+  max-width: 20rem;
   position: relative;
   color: #888889;
-  top: 4rem;
   transition: all .25s ease-out; }
-  footer:hover {
-    -webkit-transform: rotate(45deg) scale(1.05);
-            transform: rotate(45deg) scale(1.05);
+  footer:hover:after {
+    -webkit-transform: rotate(45deg) scale(1.1);
+            transform: rotate(45deg) scale(1.1);
     transition: all .25s ease-out; }
-    footer:hover div {
-      -webkit-transform: rotate(-45deg) scale(0.95);
-              transform: rotate(-45deg) scale(0.95);
-      transition: all .25s ease-out; }
-  @media (min-width: 375px) {
-    footer {
-      top: 6rem;
-      width: 24rem;
-      height: 24rem; } }
-  @media (min-width: 640px) {
-    footer {
-      width: 32rem;
-      height: 32rem;
-      top: 0;
-      left: 0; } }
-  footer div {
-    -webkit-transform: rotate(-45deg);
-            transform: rotate(-45deg);
+  footer:after {
+    content: "";
+    display: block;
+    width: 24rem;
+    height: 24rem;
+    background: #111112;
     position: absolute;
-    top: 4.5rem;
-    left: 3.5rem;
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+    top: -6rem;
+    left: -2rem;
+    right: 0;
+    margin: auto;
+    z-index: -10;
     transition: all .25s ease-out; }
-    @media (min-width: 375px) {
-      footer div {
-        top: 6.5rem;
-        left: 5rem; } }
     @media (min-width: 640px) {
-      footer div {
-        top: 6.25rem;
-        left: 8.75rem; } }
+      footer:after {
+        width: 32rem;
+        height: 32rem;
+        top: -8rem;
+        left: -6rem; } }
   footer p {
     font-size: .75rem;
     font-weight: 300;
     letter-spacing: .025rem;
     color: #888889; }
     footer p a {
-      position: relative;
       display: inline-block;
       z-index: 10;
       transition: all .25s ease-out; }
-      footer p a:before {
-        content: " ";
-        width: 5rem;
-        height: 2.5rem;
-        display: block;
-        position: absolute;
-        background: #111112;
-        top: -3rem;
-        left: -1rem;
-        z-index: 0;
-        transition: all .25s ease-out; }
-      footer p a:hover:before {
-        top: -5rem;
-        transition: all .25s ease-out; }
   footer nav ul li a, footer a {
     color: white;
     text-decoration: none; }
@@ -2797,26 +2792,10 @@ footer {
     padding: 4rem 0; }
     @media (min-width: 640px) {
       footer nav {
-        padding: 8rem 0; } }
+        padding: 6rem 0; } }
     footer nav ul li a {
       font-size: 1.125rem;
       position: relative; }
-
-.contrast-avatar {
-  width: 32px;
-  height: 32px;
-  position: absolute;
-  border-radius: 50%;
-  top: -2.5rem;
-  z-index: -10;
-  transition: all .25s ease-out; }
-  .contrast-avatar-soffes {
-    left: .5rem; }
-  .contrast-avatar-mds {
-    left: 0rem; }
-  .contrast-avatar:hover {
-    tranform: scale(1.1);
-    transition: all .25s ease-out; }
 
 .contrast-legal a {
   color: #888889;
@@ -2826,8 +2805,11 @@ footer {
     transition: all .25s ease-out; }
 
 .contrast-page-interior footer {
-  top: 6rem;
-  margin-bottom: 4rem; }
+  top: 12rem;
+  margin-bottom: 14rem; }
+  @media (min-width: 640px) {
+    .contrast-page-interior footer {
+      margin-bottom: 20rem; } }
 
 twitterwidget {
   max-width: 100% !important;

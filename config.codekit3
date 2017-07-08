@@ -97,6 +97,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/assets\/css\/sass\/_avatar.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/sass\/_avatar.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/assets\/css\/sass\/_block.sass": {
 		"aP": 0,
 		"bl": 0,
