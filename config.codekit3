@@ -9,6 +9,12 @@
 	],
 "creatorBuild": "25849",
 "files": {
+	"\/.gitignore": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/.gitignore",
+		"oF": 0
+		},
 	"\/assets\/css\/sass\/.sass-cache\/04422dd3fbdc411e60ec1ce7eaf73f40d760b878\/_animation.sassc": {
 		"ft": 8192,
 		"oA": 1,
