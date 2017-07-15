@@ -9,40 +9,10 @@
 	],
 "creatorBuild": "25849",
 "files": {
-	"\/assets\/css\/sass\/.sass-cache\/04422dd3fbdc411e60ec1ce7eaf73f40d760b878\/_animation.sassc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/assets\/css\/sass\/.sass-cache\/04422dd3fbdc411e60ec1ce7eaf73f40d760b878\/_animation.sassc",
-		"oF": 0
-		},
-	"\/assets\/css\/sass\/.sass-cache\/04422dd3fbdc411e60ec1ce7eaf73f40d760b878\/_global.sassc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/assets\/css\/sass\/.sass-cache\/04422dd3fbdc411e60ec1ce7eaf73f40d760b878\/_global.sassc",
-		"oF": 0
-		},
-	"\/assets\/css\/sass\/.sass-cache\/04422dd3fbdc411e60ec1ce7eaf73f40d760b878\/_mixins.sassc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/assets\/css\/sass\/.sass-cache\/04422dd3fbdc411e60ec1ce7eaf73f40d760b878\/_mixins.sassc",
-		"oF": 0
-		},
-	"\/assets\/css\/sass\/.sass-cache\/04422dd3fbdc411e60ec1ce7eaf73f40d760b878\/_reset.sassc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/assets\/css\/sass\/.sass-cache\/04422dd3fbdc411e60ec1ce7eaf73f40d760b878\/_reset.sassc",
-		"oF": 0
-		},
-	"\/assets\/css\/sass\/.sass-cache\/04422dd3fbdc411e60ec1ce7eaf73f40d760b878\/_variables.sassc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/assets\/css\/sass\/.sass-cache\/04422dd3fbdc411e60ec1ce7eaf73f40d760b878\/_variables.sassc",
-		"oF": 0
-		},
-	"\/assets\/css\/sass\/.sass-cache\/04422dd3fbdc411e60ec1ce7eaf73f40d760b878\/screen.sassc": {
+	"\/.gitignore": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/assets\/css\/sass\/.sass-cache\/04422dd3fbdc411e60ec1ce7eaf73f40d760b878\/screen.sassc",
+		"oAP": "\/.gitignore",
 		"oF": 0
 		},
 	"\/assets\/css\/sass\/_animate.sass": {
