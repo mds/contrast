@@ -2227,17 +2227,19 @@ nav {
   right: 1em;
   z-index: 10; }
 
+.contrast-btn-container {
+  margin: auto;
+  display: block;
+  width: 200px; }
+  @media (min-width: 640px) {
+    .contrast-btn-container {
+      width: 230px; } }
+
 .contrast-app-store {
   display: inline;
   position: relative;
   top: 2rem;
   transition: all .25s ease-out; }
-  .contrast-app-store:hover {
-    -webkit-transform: scale(1.05);
-            transform: scale(1.05);
-    transition: all .25s ease-out; }
-    .contrast-app-store:hover #bg {
-      fill: #00BBFF; }
   @media (min-width: 640px) {
     .contrast-app-store {
       top: 3.5rem; } }
@@ -2245,13 +2247,63 @@ nav {
     display: none; }
   .contrast-app-store svg {
     width: 200px;
-    display: block;
+    text-align: center;
     margin: auto;
-    padding-bottom: 0; }
+    padding-bottom: 0;
+    transition: all .25s ease-out; }
     @media (min-width: 640px) {
       .contrast-app-store svg {
         width: 230px;
-        margin-bottom: 6rem; } }
+        margin-bottom: 6rem;
+        text-align: center; } }
+    .contrast-app-store svg:hover {
+      -webkit-transform: scale(1.05);
+              transform: scale(1.05);
+      transition: all .25s ease-out; }
+
+.jiggle {
+  -webkit-animation: jiggle .5s infinite;
+          animation: jiggle .5s infinite; }
+
+@-webkit-keyframes jiggle {
+  0% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0); }
+  20% {
+    -webkit-transform: rotate(-4deg);
+            transform: rotate(-4deg); }
+  40% {
+    -webkit-transform: rotate(4deg);
+            transform: rotate(4deg); }
+  60% {
+    -webkit-transform: rotate(-4deg);
+            transform: rotate(-4deg); }
+  80% {
+    -webkit-transform: rotate(4deg);
+            transform: rotate(4deg); }
+  100% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0); } }
+
+@keyframes jiggle {
+  0% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0); }
+  20% {
+    -webkit-transform: rotate(-4deg);
+            transform: rotate(-4deg); }
+  40% {
+    -webkit-transform: rotate(4deg);
+            transform: rotate(4deg); }
+  60% {
+    -webkit-transform: rotate(-4deg);
+            transform: rotate(-4deg); }
+  80% {
+    -webkit-transform: rotate(4deg);
+            transform: rotate(4deg); }
+  100% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0); } }
 
 .contrast-block {
   max-width: 22rem;
@@ -2736,7 +2788,6 @@ div.contrast-block-text {
 
 .contrast-footer-wrapper {
   width: 100%;
-  overflow: hidden;
   position: relative;
   padding: 12rem 0 18rem; }
   @media (min-width: 640px) {

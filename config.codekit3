@@ -502,6 +502,12 @@
 		"oAP": "\/favicon.ico",
 		"oF": 0
 		},
+	"\/guide\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/guide\/index.html",
+		"oF": 0
+		},
 	"\/index.html": {
 		"ft": 8192,
 		"oA": 2,

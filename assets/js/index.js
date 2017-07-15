@@ -73,6 +73,14 @@ $( document ).ready(function() {
 
   }
 
+  // If someone tries to click the app, wiggle the appstore button
+  $('.contrast-app').click(function(){
+    $('.contrast-app-store svg').addClass('jiggle');
+    setTimeout(function () {
+      $('.contrast-app-store svg').removeClass('jiggle');
+    }, 1000);
+  });
+
   // Hover for Diamond 1
   $('.contrast-score-display-1').mouseover(function(){
     $('.contrast-shape-diamond-1').addClass('contrast-shape-diamond-1--is-animated');

@@ -55,6 +55,7 @@
           <li><a href="/why">Why</a></li>
           <li><a href="/press">Press</a></li>
           <li><a class="active" href="/support">Support</a></li>
+          <li><a href="/guide">Guide</a></li>
         </ul>
       </nav>
 
@@ -63,17 +64,26 @@
         <div class="contrast-title">
           <h1>Support</h1>
         </div>
+
+        <h2>Is there some type of guide I can read about color contrast?</h2>
+        <p>Yes, we wrote one. <a href="/guide">It's right here</a>.</p>
+
+        <h2>Can I disable the sounds?</h2>
+        <p>Yes. Right click the menu bar icon and deselect <code>Sounds</code>.</p>
         
         <h2>Do I really need check the colors I use in my designs?</h2>
-
         <p>You don't have to check all of your colors, only ones you want people to be able to read. Logos and decorative elements aren't included in the WCAG guidelines.</p>
 
-        <h2>What's all this WCAG talk?</h2>
+        <h2>Does this work with my design tool?</h2>
+        <p>Yes! We've tested colors in Sketch, Figma, XD, Illustrator, and *Photoshop. Photoshop's color space needs to be set to `Display` to have the same color space as Contrast.</p>
 
+        <h2>Can I adjust my hex code after choosing it?</h2>
+        <p>Sure can. With either of the fields selected you can use <code>arrow key up</code> or <code>arrow key down</code> to adjust the brightness of your color.</p>
+
+        <h2>What's all this WCAG talk?</h2>
         <p>Thought you'd never ask. Here is the <a href="https://www.w3.org/TR/WCAG20/#visual-audio-contrast">WCAG 2.0 Guidelines</a> section on color contrast and here are a few more links that go into a bit more detail: <a href="https://www.w3.org/WAI/WCAG20/quickref/#qr-visual-audio-contrast-contrast">How to meet WCAG 2.0</a>, <a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html">Understanding Success Criterion</a></p>
 
         <h2>How many color ratios are there?</h2>
-
         <p>There are technically 5 scores:</p>
 
         <ol>
@@ -85,11 +95,9 @@
         </ol>
 
         <h2>Can you explain the scores to me?</h2>
-
         <p>Sure can, keep scrolling through the next couple of sections.</p>
 
         <h2>What does AAA mean?</h2>
-
         <p>AAA means that your text has a contrast ratio of at least <strong>7.1</strong>. For example, <code>595959</code> text on a <code>ffffff</code> background and vice versa.</p>
 
         <p>Note that in order to achieve a true AAA rating, section 1.4.8.1 of the WCAG also states that &quot;<em>Foreground and background colors can be selected by the user.</em>&quot; </p>
@@ -101,25 +109,21 @@
         <p>Side note, 20/200 is <a href="http://www.afb.org/info/blindness-statistics/key-definitions-of-statistical-terms/25">legally blind</a>.</p>
 
         <h2>What does AAA Large mean?</h2>
-
         <p>AAA Large means that your large text has a contrast ratio of at least <strong>4.5</strong>, which is the same score as AA, which is why you won't see AAA Large as a visible score in the app. </p>
 
         <p>The WCAG describes <code>14pt bold</code> and <code>18pt</code> as &quot;large&quot; sizes. This roughly translates to <code>18.5px</code> and <code>24px</code> @1x.</p>
 
         <h2>What does AA mean?</h2>
-
         <p>AA means that your text has a contrast ratio of at least <strong>4.5</strong>. For example, <code>757777</code> text on a <code>ffffff</code> background and vice versa.</p>
 
         <p>There is empirical evidence that <a href="https://www.nei.nih.gov/eyedata/vision_impaired">visual acuity of 20/40</a> is associated with a contrast sensitivity loss of roughly 1.5, which is where the 4.5 score is derived.</p>
 
         <h2>What does AA Large mean?</h2>
-
         <p>AA Large means that your text has a contrast ratio of at least <strong>3.0</strong>. For example, <code>949595</code> text on a <code>ffffff</code> background.</p>
 
         <p>This is the minimum level recommended by <a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/appendixE.html#ISO-9241-3">ISO-9241-3</a> and <a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/appendixE.html#ANSI-HFES-100-1988">ANSI-HFES-100-1988</a> for standard text and normal vision, which is where WCAG derived this score.</p>
 
         <h2>What does Fail mean?</h2>
-
         <p>Fail means that your text has a contrast ratio of <strong>2.9</strong> or lower. </p>
 
         <h2>Why does the app say AA+?</h2>
@@ -127,7 +131,6 @@
         <p>The <code>+</code> stands for <code>Large</code> in the app. We made the decision to abbreviate it so the scores would be similar in character length.</p>
 
         <h2>What about mobile apps and their big sharp retina screens?</h2>
-
         <p>There's a working draft of the <a href="https://www.w3.org/TR/mobile-accessibility-mapping/#contrast">WCAG Mobile guidelines</a> that says...</p>
 
         <blockquote>
@@ -137,7 +140,6 @@
         <p>So while it is probably easier to see lighter text on a high resolution screen in a controlled environment, the use case for mobile is too unpredictable to risk going super light with text.</p>
 
         <h2>Will the app be developed for any other platforms?</h2>
-
         <p>No definite plans at the moment.</p>
 
         <h2>My question wasn't answered. Help!</h2>
@@ -160,6 +162,7 @@
               <li><a href="/why">Why</a></li>
               <li><a href="/press">Press</a></li>
               <li><a href="/support">Support</a></li>
+              <li><a href="/guide">Guide</a></li>
             </ul>
           </nav>
           <p class="contrast-legal"><span class="copyright">©2017</span> <a href="http://nothingmagical.com">Nothing Magical, Inc</a>.</p>
@@ -172,12 +175,14 @@
   <script type="text/javascript" src="../assets/js/index.js"></script>
 
   <script>
-    !function(g,s,q,r,d){r=g[r]=g[r]||function(){(r.q=r.q||[]).push(
-    arguments)};d=s.createElement(q);q=s.getElementsByTagName(q)[0];
-    d.src='//d1l6p2sc9645hc.cloudfront.net/tracker.js';q.parentNode.
-    insertBefore(d,q)}(window,document,'script','_gs');
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-    _gs('GSN-972062-D');
+    ga('create', 'UA-39514643-8', 'auto');
+    ga('send', 'pageview');
+
   </script>
 
   </body>
