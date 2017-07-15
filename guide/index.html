@@ -65,7 +65,117 @@
           <h1>Guide</h1>
         </div>
 
-        <p>Guide stuff will go here.</p>
+        <p>There are an <a href="http://www.who.int/mediacentre/factsheets/fs282/en/">estimated 285 million</a> people in the world who are visually impaired. This number includes anyone from legally blind, to those with less than 20/20 vision. </p>
+
+        <p>This short guide will help you achieve the accessibility standards outlined in the <a href="https://www.w3.org/WAI/intro/wcag">WCAG 2.0</a>, specifically with foreground and background color when it comes to text.</p>
+
+        <h2>TL;DR</h2>
+
+        <ul>
+        <li><strong>Fail</strong> – Your text doesn't have enough contrast with the background. You probably want to make it darker. This is a score of less than <code>3.0</code>.</li>
+        <li><strong>AA Large</strong> – The smallest acceptable amount of contrast for type sizes of 18<sub>px</sub> and larger. This is a score of at least <code>3.0</code>.</li>
+        <li><strong>AA</strong> – This is the sweet spot for text sizes below ~18px. This is a score of at least <code>4.5</code>.</li>
+        <li><strong>AAA</strong> – This is enhanced contrast with a score of at least <code>7.0</code>. Think longer form articles that will be read for a significant period of time.</li>
+        </ul>
+
+        <p>Decorative elements or text that is part of a logo or brand name have no minimum contrast requirements.</p>
+
+        <p>There are other factors to consider in order to be fully compliant with AA and AAA standards, but this will get you off to a great start.</p>
+
+        <h2>Score and Ratio</h2>
+
+        <p>There is an <a href="https://www.w3.org/TR/2008/REC-WCAG20-20081211/#relativeluminancedef">equation provided by the WCAG</a> (Web Content Accessibility Guidelines) that determines these two values.</p>
+
+        <ol>
+        <li>The Score</li>
+        <li>The Ratio</li>
+        </ol>
+
+        <p>The equation outputs a number between 0 and 21, with 21 being the highest amount of contrast—think black text and a white background—and 0 being no contrast—white on white.</p>
+
+        <p>The output of contrast between any two colors will fall somewhere on the spectrum between 0 – 21. That's where the scores are derived from. </p>
+
+        <p>There are technically 5 scores.</p>
+
+        <ol>
+        <li>AAA</li>
+        <li>AAA Large</li>
+        <li>AA</li>
+        <li>AA Large</li>
+        <li>Fail</li>
+        </ol>
+
+        <h2>AAA</h2>
+
+        <p>AAA means that your text has a contrast ratio of at least <strong>7.1</strong>. For example, <code>595959</code> text on a <code>ffffff</code> background and vide versa.</p>
+
+        <p>Note that in order to achieve a true AAA rating, section 1.4.8.1 of the WCAG also states that &quot;<em>Foreground and background colors can be selected by the user.</em>&quot; </p>
+
+        <p>So unless you're planning on creating that functionality in your website or app as well, there's really no reason to shoot for higher than AA, in our opinion.</p>
+
+        <p>This score is derived for people with low 20/80 vision. This visual acuity score is often not able to be corrected with glasses, etc.</p>
+
+        <p>Side note, 20/200 is <a href="http://www.afb.org/info/blindness-statistics/key-definitions-of-statistical-terms/25">legally blind</a>.</p>
+
+        <blockquote><p><strong>ISO 9241-3</strong>
+        Ergonomic requirements for office work with visual display terminals (VDTs) - Part 3: Visual display requirements. Amendment 1.*</p></blockquote>
+
+        <h2>AAA Large</h2>
+
+        <p>AAA Large means that your large text has a contrast ratio of <strong>4.5</strong> or higher, which is the same score as AA, which is why you won't see AAA Large as a visible score in the app. </p>
+
+        <p>The WCAG describes <code>14pt bold</code> and <code>18pt</code> as &quot;large&quot; sizes. This roughly translates to <code>18.5px bold</code> and <code>24px</code> @1x. This is an approximation since letterform sizes can vary greatly between typefaces.</p>
+
+        <h2>AA</h2>
+
+        <p>AA means that your text has a contrast ratio of at least <strong>4.5</strong> or higher. For example, <code>757777</code> text on a <code>ffffff</code> background and vice versa.</p>
+
+        <p>There is empirical evidence that <a href="https://www.nei.nih.gov/eyedata/vision_impaired">visual acuity of 20/40</a> is associated with a contrast sensitivity loss of roughly 1.5, which is where the 4.5 score is derived.</p>
+
+        <blockquote>
+        <p><strong>Gittings, NS and Fozard, JL (1986)</strong>. Age related changes in visual acuity. Experimental Gerontology, 21(4-5), 423-433.
+        </p></blockquote>
+        <blockquote>
+        <p><strong>ANSI-HFES-100-1988</strong>. American National Standard for Human Factors Engineering of Visual Display Terminal Workstations, Section 6, pp. 17-20.</p>
+        </blockquote>
+
+        <h2>AA Large (AA+)</h2>
+
+        <p>AA Large means that your text has a contrast ratio of at least <strong>3.0</strong>. For example, <code>949595</code> text on a <code>ffffff</code> background.</p>
+
+        <p>This is the minimum level recommended by <a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/appendixE.html#ISO-9241-3">ISO-9241-3</a> and <a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/appendixE.html#ANSI-HFES-100-1988">ANSI-HFES-100-1988</a> for standard text and normal vision, which is where WCAG derived this score.</p>
+
+        <p><code>+</code> stands for <strong>Large</strong> in the app. We made the decision to abbreviate it so the scores would be similar in character length and not impact the fixed width of the UI. 😉</p>
+
+        <h2>FAIL</h2>
+
+        <p>Fail means that your text has a contrast ratio of <strong>2.9</strong> or lower. This does not apply to logos, text in logos, and other decorative elements.</p>
+
+        <h2>What about mobile apps and their big sharp retina screens?</h2>
+
+        <p>There's a working draft of the <a href="https://www.w3.org/TR/mobile-accessibility-mapping/#contrast">WCAG Mobile guidelines</a> that says...</p>
+
+        <blockquote>
+        <p>Mobile devices are more likely than desktop/laptop devices to be used in varied environments including outdoors, where glare from the sun or other strong lighting sources is more likely. This scenario heightens the importance of use of good contrast for all users and may compound the challenges that users with low vision have accessing content with poor contrast on mobile devices.&quot;</p>
+        </blockquote>
+
+        <p>So while it is probably easier to see lighter text on a high resolution screens in a controlled environment, the use case for mobile is incredibly unpredictable to risk going super light with text. Direct sunlight, dark rooms, and more all significantly affect the display on mobile screens.</p>
+
+        <p>If you have more questions or just want to nerd out about color contrast email matt@mds.is to continue the fun.</p>
+
+        <h2>More than Just Contrast</h2>
+
+        <p>There's a lot more to accessibility than just color contrast. Here are a few snippets from the WCAG for example:</p>
+
+        <blockquote>
+        <p><strong>1.4.8 Visual Presentation:</strong> For the visual presentation of blocks of text, a mechanism is available to achieve the following: (Level AAA)
+        <strong>Foreground and background colors can be selected by the user.</strong>
+        Width is no more than 80 characters or glyphs (40 if CJK). Text is not justified (aligned to both the left and the right margins).
+        Line spacing (leading) is at least space-and-a-half within paragraphs, and paragraph spacing is at least 1.5 times larger than the line spacing.
+        Text can be resized without assistive technology up to 200 percent in a way that does not require the user to scroll horizontally to read a line of text on a full-screen window.</p>
+        </blockquote>
+
+        <p>If you'd like to go EVEN deeper down the rabbit hole. <a href="https://www.w3.org/WAI/intro/wcag">Go here</a>.</p>
 
       </div>
 
