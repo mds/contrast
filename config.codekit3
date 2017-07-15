@@ -484,6 +484,99 @@
 		"oAP": "\/index.html",
 		"oF": 0
 		},
+	"\/press\/contrast-press-kit.zip": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/press\/contrast-press-kit.zip",
+		"oF": 0
+		},
+	"\/press\/contrast-press-kit\/About Contrast.text": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/press\/contrast-press-kit\/About Contrast.text",
+		"oF": 0
+		},
+	"\/press\/contrast-press-kit\/Contrast App Icon.png": {
+		"ft": 32768,
+		"iS": 85246,
+		"oA": 0,
+		"oAP": "\/press\/contrast-press-kit\/Contrast App Icon.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/press\/contrast-press-kit\/Contrast App Icon.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/press\/contrast-press-kit\/Contrast App Icon.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/press\/contrast-press-kit\/Logo - NM.eps": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/press\/contrast-press-kit\/Logo - NM.eps",
+		"oF": 0
+		},
+	"\/press\/contrast-press-kit\/Logo – MDS.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/press\/contrast-press-kit\/Logo – MDS.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/press\/contrast-press-kit\/Screenshots\/contrast screenshot 01.png": {
+		"ft": 32768,
+		"iS": 267307,
+		"oA": 0,
+		"oAP": "\/press\/contrast-press-kit\/Screenshots\/contrast screenshot 01.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/press\/contrast-press-kit\/Screenshots\/contrast screenshot 02.png": {
+		"ft": 32768,
+		"iS": 634260,
+		"oA": 0,
+		"oAP": "\/press\/contrast-press-kit\/Screenshots\/contrast screenshot 02.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/press\/contrast-press-kit\/Screenshots\/contrast screenshot 03.png": {
+		"ft": 32768,
+		"iS": 746736,
+		"oA": 0,
+		"oAP": "\/press\/contrast-press-kit\/Screenshots\/contrast screenshot 03.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/press\/contrast-press-kit\/Screenshots\/contrast screenshot 04.png": {
+		"ft": 32768,
+		"iS": 618966,
+		"oA": 0,
+		"oAP": "\/press\/contrast-press-kit\/Screenshots\/contrast screenshot 04.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"\/press\/index.html": {
 		"ft": 8192,
 		"oA": 2,
