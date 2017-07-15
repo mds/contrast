@@ -2773,6 +2773,8 @@ div.contrast-block-text {
       color: #111112;
       box-shadow: inset 0 -14px 0 0 yellow;
       transition: all .25s ease-out; }
+  .contrast-content img {
+    width: 100%; }
   .contrast-content code {
     font-size: .75em;
     padding: .125rem .25rem;
