@@ -1944,6 +1944,43 @@ nav {
         font-size: 1.125rem;
         letter-spacing: 0; } }
 
+.contrast-app-static {
+  background: white !important;
+  position: initial !important;
+  left: 0;
+  right: 0;
+  margin: 1rem auto 2.5rem;
+  font-size: 10px; }
+  @media (min-width: 375px) {
+    .contrast-app-static {
+      font-size: 12px;
+      margin: 1rem auto 3rem; } }
+  @media (min-width: 640px) {
+    .contrast-app-static {
+      font-size: 16px;
+      margin: 2rem auto 4rem; } }
+  @media (min-width: 900px) {
+    .contrast-app-static {
+      font-size: 20px; } }
+  .contrast-app-static:after {
+    display: none !important; }
+
+#contrast-app-aaa .contrast-app-score,
+#contrast-app-aaa .contrast-app-ratio {
+  color: #595959; }
+
+#contrast-app-aa .contrast-app-score,
+#contrast-app-aa .contrast-app-ratio {
+  color: #757777; }
+
+#contrast-app-aa-large .contrast-app-score,
+#contrast-app-aa-large .contrast-app-ratio {
+  color: #949595; }
+
+#contrast-app-aa-fail .contrast-app-score,
+#contrast-app-aa-fail .contrast-app-ratio {
+  color: #b8b8b8; }
+
 .contrast-app {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   background: yellow;
@@ -1954,7 +1991,7 @@ nav {
       grid-template-columns: 1fr 2fr 1fr;
   width: 24.625em;
   border-radius: .25em;
-  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1), 0 0.375em 0.625em 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1), 0 0.375em 1em 0 rgba(0, 0, 0, 0.2);
   -webkit-animation-delay: .25s;
           animation-delay: .25s;
   transition: all .25s ease-out; }
@@ -1971,6 +2008,38 @@ nav {
     right: 0;
     margin: auto;
     top: -.625em; }
+  .contrast-app:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: -1.4em;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: .375em;
+    height: .375em;
+    border-radius: 50%;
+    z-index: 100;
+    background: rgba(255, 255, 255, 0.5);
+    -webkit-animation: slowfade .25s 1 ease-out;
+            animation: slowfade .25s 1 ease-out;
+    -webkit-animation-delay: .75s;
+            animation-delay: .75s;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    opacity: 0; }
+
+@-webkit-keyframes slowfade {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+@keyframes slowfade {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
 
 .contrast-app-icon {
   width: 5em;
@@ -2016,6 +2085,7 @@ nav {
   padding: .25em .5em;
   background: rgba(0, 0, 0, 0.05);
   width: 4.5em;
+  line-height: 1.2em;
   font-family: native, menlo, monospace; }
 
 .contrast-app svg {
@@ -2115,10 +2185,10 @@ nav {
     transition: all .25s ease-out; }
 
 .contrast-app-var-6 {
-  background: #39CCCC !important;
+  background: #2b9a9a !important;
   transition: all .25s ease-out; }
   .contrast-app-var-6:after {
-    border-bottom: 0.75em solid #39CCCC !important;
+    border-bottom: 0.75em solid #2b9a9a !important;
     transition: all .25s ease-out; }
   .contrast-app-var-6 .contrast-app-score,
   .contrast-app-var-6 .contrast-app-ratio {
@@ -2148,19 +2218,6 @@ nav {
   height: 16.875em;
   top: 1.25em; }
 
-.contrast-mbp div.contrast-menu-bar-dot {
-  display: block;
-  position: absolute;
-  top: 1.7em;
-  left: 13.4em;
-  width: .375em;
-  height: .375em;
-  border-radius: 50%;
-  z-index: 10;
-  background: rgba(255, 255, 255, 0.5);
-  -webkit-animation-delay: .15s;
-          animation-delay: .15s; }
-
 .contrast-mbp-dock {
   background: #434344;
   width: 13.75em;
@@ -2176,6 +2233,16 @@ nav {
   border-radius: .25em;
   background: linear-gradient(to right, #2a2a2a 1%, #565656 2%, #2a2a2a 3%, #444446 50%, #2a2a2a 98%, #565656 99%, #2a2a2a 100%);
   box-shadow: inset 0 -1px 3px 0 rgba(255, 255, 255, 0.2); }
+  .contrast-mbp-front-edge:before {
+    content: "";
+    display: block;
+    width: 5.75em;
+    height: .45em;
+    background: #2a2a2a;
+    border-radius: 0 0 1em 1em;
+    left: 0;
+    right: 0;
+    margin: auto; }
 
 .contrast-mbp-bottom {
   width: 34.5em;
@@ -2709,9 +2776,10 @@ div.contrast-block-text {
   transition: all .25s ease-out; }
 
 .diamond-var-6 {
-  background: #39CCCC !important;
+  background: #2b9a9a !important;
   transition: all .25s ease-out; }
 
+.contrast-content .contrast-avatar,
 .contrast-avatar {
   width: 32px;
   height: 32px;
@@ -2725,8 +2793,10 @@ div.contrast-block-text {
   right: 0;
   margin: auto;
   transition: all .25s ease-out; }
+  .contrast-content .contrast-avatar-soffes,
   .contrast-avatar-soffes {
     left: .5rem; }
+  .contrast-content .contrast-avatar-mds,
   .contrast-avatar-mds {
     left: 0rem; }
 

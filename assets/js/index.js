@@ -9,75 +9,75 @@ $( document ).ready(function() {
   function animateApp(){
 
     setTimeout(function () {
-      $('.contrast-app').addClass('contrast-app-var-1');
-      $('.contrast-app-score').html('AAA');
-      $('.contrast-app-input--foreground').html('001F3F');
-      $('.contrast-app-input--background').html('01FF70');
-      $('.contrast-app-ratio').html('12.26');
+      $('.contrast-showcase .contrast-app').addClass('contrast-app-var-1');
+      $('.contrast-showcase .contrast-app-score').html('AAA');
+      $('.contrast-showcase .contrast-app-input--foreground').html('001F3F');
+      $('.contrast-showcase .contrast-app-input--background').html('01FF70');
+      $('.contrast-showcase .contrast-app-ratio').html('12.26');
     }, 1000); 
 
     setTimeout(function () {
-      $('.contrast-app').removeClass('contrast-app-var-1');
-      $('.contrast-app').addClass("contrast-app-var-2");
-      $('.contrast-app-score').html('AA');
-      $('.contrast-app-input--foreground').html('85144B');
-      $('.contrast-app-input--background').html('FF851B');
-      $('.contrast-app-ratio').html('3.92');
+      $('.contrast-showcase .contrast-app').removeClass('contrast-app-var-1');
+      $('.contrast-showcase .contrast-app').addClass("contrast-app-var-2");
+      $('.contrast-showcase .contrast-app-score').html('AA');
+      $('.contrast-showcase .contrast-app-input--foreground').html('85144B');
+      $('.contrast-showcase .contrast-app-input--background').html('FF851B');
+      $('.contrast-showcase .contrast-app-ratio').html('3.92');
     }, 3000);
 
     setTimeout(function () {
-      $('.contrast-app').removeClass('contrast-app-var-2');
-      $('.contrast-app').addClass("contrast-app-var-3");
-      $('.contrast-app-score').html('AA+');
-      $('.contrast-app-input--foreground').html('01FF70');
-      $('.contrast-app-input--background').html('0074D9');
-      $('.contrast-app-ratio').html('3.45'); 
+      $('.contrast-showcase .contrast-app').removeClass('contrast-app-var-2');
+      $('.contrast-showcase .contrast-app').addClass("contrast-app-var-3");
+      $('.contrast-showcase .contrast-app-score').html('AA+');
+      $('.contrast-showcase .contrast-app-input--foreground').html('01FF70');
+      $('.contrast-showcase .contrast-app-input--background').html('0074D9');
+      $('.contrast-showcase .contrast-app-ratio').html('3.45'); 
     }, 5000);
 
     setTimeout(function () {
-      $('.contrast-app').removeClass('contrast-app-var-3');
-      $('.contrast-app').addClass("contrast-app-var-4");
-      $('.contrast-app-score').html('AA');
-      $('.contrast-app-input--foreground').html('111111');
-      $('.contrast-app-input--background').html('F012BE');
-      $('.contrast-app-ratio').html('4.98');
+      $('.contrast-showcase .contrast-app').removeClass('contrast-app-var-3');
+      $('.contrast-showcase .contrast-app').addClass("contrast-app-var-4");
+      $('.contrast-showcase .contrast-app-score').html('AA');
+      $('.contrast-showcase .contrast-app-input--foreground').html('111111');
+      $('.contrast-showcase .contrast-app-input--background').html('F012BE');
+      $('.contrast-showcase .contrast-app-ratio').html('4.98');
     }, 7000);
 
 
     setTimeout(function () {
-      $('.contrast-app').removeClass('contrast-app-var-4');
-      $('.contrast-app').addClass("contrast-app-var-5");
-      $('.contrast-app-score').html('Fail');
-      $('.contrast-app-input--foreground').html('FFFFFF');
-      $('.contrast-app-input--background').html('FF5699');
-      $('.contrast-app-ratio').html('2.98');
+      $('.contrast-showcase .contrast-app').removeClass('contrast-app-var-4');
+      $('.contrast-showcase .contrast-app').addClass("contrast-app-var-5");
+      $('.contrast-showcase .contrast-app-score').html('Fail');
+      $('.contrast-showcase .contrast-app-input--foreground').html('FFFFFF');
+      $('.contrast-showcase .contrast-app-input--background').html('FF5699');
+      $('.contrast-showcase .contrast-app-ratio').html('2.98');
     }, 9000);
 
     setTimeout(function () {
-      $('.contrast-app').removeClass('contrast-app-var-5');
-      $('.contrast-app').addClass("contrast-app-var-6");
-      $('.contrast-app-score').html('Fail');
-      $('.contrast-app-input--foreground').html('FFFFFF');
-      $('.contrast-app-input--background').html('39CCCC');
-      $('.contrast-app-ratio').html('1.97');
+      $('.contrast-showcase .contrast-app').removeClass('contrast-app-var-5');
+      $('.contrast-showcase .contrast-app').addClass("contrast-app-var-6");
+      $('.contrast-showcase .contrast-app-score').html('AA+');
+      $('.contrast-showcase .contrast-app-input--foreground').html('FFFFFF');
+      $('.contrast-showcase .contrast-app-input--background').html('2b9a9a');
+      $('.contrast-showcase .contrast-app-ratio').html('3.43');
     }, 11000);
 
     setTimeout(function () {
-      $('.contrast-app').removeClass('contrast-app-var-6');
-      $('.contrast-app').addClass("contrast-app-var-0");
-      $('.contrast-app-score').html('AAA');
-      $('.contrast-app-input--foreground').html('111112');
-      $('.contrast-app-input--background').html('FFFF00');
-      $('.contrast-app-ratio').html('17.35');
+      $('.contrast-showcase .contrast-app').removeClass('contrast-app-var-6');
+      $('.contrast-showcase .contrast-app').addClass("contrast-app-var-0");
+      $('.contrast-showcase .contrast-app-score').html('AAA');
+      $('.contrast-showcase .contrast-app-input--foreground').html('111112');
+      $('.contrast-showcase .contrast-app-input--background').html('FFFF00');
+      $('.contrast-showcase .contrast-app-ratio').html('17.35');
     }, 13000);
 
   }
 
   // If someone tries to click the app, wiggle the appstore button
-  $('.contrast-app').click(function(){
-    $('.contrast-app-store svg').addClass('jiggle');
+  $('.contrast-showcase .contrast-app').click(function(){
+    $('.contrast-showcase .contrast-app-store svg').addClass('jiggle');
     setTimeout(function () {
-      $('.contrast-app-store svg').removeClass('jiggle');
+      $('.contrast-showcase .contrast-app-store svg').removeClass('jiggle');
     }, 1000);
   });
 

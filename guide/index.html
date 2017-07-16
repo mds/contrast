@@ -107,9 +107,25 @@
 
         <h2>AAA</h2>
 
-        <p>AAA means that your text has a contrast ratio of at least <strong>7.1</strong>. For example, <code>595959</code> text on a <code>ffffff</code> background and vide versa.</p>
+        <p>AAA means that your text has a contrast ratio of at least <strong>7.0</strong>. For example, <code>595959</code> text on a <code>ffffff</code> background and vide versa.</p>
 
-        <img src="../assets/img/score-aaa.png" alt="AAA" />
+        <!-- app -->
+        <div id="contrast-app-aaa" class="contrast-app contrast-app-static">
+          <div class="contrast-app-score">AAA</div>
+          <div class="contrast-app-controls">
+            <div class="contrast-app-eyedropper">
+              <svg><use xlink:href="../assets/img/icon-eyedropper.svg#target"></use></svg>
+            </div>
+            <div class=" contrast-app-input contrast-app-input--foreground">595959</div>
+            <div class="contrast-app-triangles"></div>
+            <div class="contrast-app-eyedropper">
+              <svg><use xlink:href="../assets/img/icon-eyedropper.svg#target"></use></svg>
+            </div>
+            <div class=" contrast-app-input contrast-app-input--background">ffffff</div>
+          </div>
+          <div class="contrast-app-ratio">7.0</div>
+        </div><!-- app -->
+
 
         <p>Note that in order to achieve a true AAA rating, section 1.4.8.1 of the WCAG also states that &quot;<em>Foreground and background colors can be selected by the user.</em>&quot; </p>
 
@@ -132,7 +148,22 @@
 
         <p>AA means that your text has a contrast ratio of at least <strong>4.5</strong> or higher. For example, <code>757777</code> text on a <code>ffffff</code> background and vice versa.</p>
 
-        <img src="../assets/img/score-aa.png" alt="AA" />
+       <!-- app -->
+        <div id="contrast-app-aa" class="contrast-app contrast-app-static">
+          <div class="contrast-app-score">AA</div>
+          <div class="contrast-app-controls">
+            <div class="contrast-app-eyedropper">
+              <svg><use xlink:href="../assets/img/icon-eyedropper.svg#target"></use></svg>
+            </div>
+            <div class=" contrast-app-input contrast-app-input--foreground">757777</div>
+            <div class="contrast-app-triangles"></div>
+            <div class="contrast-app-eyedropper">
+              <svg><use xlink:href="../assets/img/icon-eyedropper.svg#target"></use></svg>
+            </div>
+            <div class=" contrast-app-input contrast-app-input--background">ffffff</div>
+          </div>
+          <div class="contrast-app-ratio">4.5</div>
+        </div><!-- app -->
 
         <p>There is empirical evidence that <a href="https://www.nei.nih.gov/eyedata/vision_impaired">visual acuity of 20/40</a> is associated with a contrast sensitivity loss of roughly 1.5, which is where the 4.5 score is derived.</p>
 
@@ -147,17 +178,49 @@
 
         <p>AA Large means that your text has a contrast ratio of at least <strong>3.0</strong>. For example, <code>949595</code> text on a <code>ffffff</code> background.</p>
 
-        <img src="../assets/img/score-aa-plus.png" alt="AA Large" />
+        <!-- app -->
+        <div id="contrast-app-aa-large" class="contrast-app contrast-app-static">
+          <div class="contrast-app-score">AA+</div>
+          <div class="contrast-app-controls">
+            <div class="contrast-app-eyedropper">
+              <svg><use xlink:href="../assets/img/icon-eyedropper.svg#target"></use></svg>
+            </div>
+            <div class=" contrast-app-input contrast-app-input--foreground">949595</div>
+            <div class="contrast-app-triangles"></div>
+            <div class="contrast-app-eyedropper">
+              <svg><use xlink:href="../assets/img/icon-eyedropper.svg#target"></use></svg>
+            </div>
+            <div class=" contrast-app-input contrast-app-input--background">ffffff</div>
+          </div>
+          <div class="contrast-app-ratio">3.0</div>
+        </div><!-- app -->
 
-        <p>This is the minimum level recommended by <a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/appendixE.html#ISO-9241-3">ISO-9241-3</a> and <a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/appendixE.html#ANSI-HFES-100-1988">ANSI-HFES-100-1988</a> for standard text and normal vision, which is where WCAG derived this score.</p>
+        <blockquote><p>This is the minimum level recommended by <a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/appendixE.html#ISO-9241-3">ISO-9241-3</a> and <a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/appendixE.html#ANSI-HFES-100-1988">ANSI-HFES-100-1988</a> for standard text and normal vision, which is where WCAG derived this score.</p></blockquote>
 
-        <p><code>+</code> stands for <strong>Large</strong> in the app. We made the decision to abbreviate it so the scores would be similar in character length and not impact the fixed width of the UI. 😉</p>
+        <p>We made the decision to abbreviate <code>Large</code> to <code>+</code> so that each score would be similar in character length and not impact the fixed width of the interface.</p>
 
         <h2>FAIL</h2>
 
         <p>Fail means that your text has a contrast ratio of <strong>2.9</strong> or lower. This does not apply to logos, text in logos, and other decorative elements.</p>
 
-        <img src="../assets/img/score-fail.png" alt="fail" />
+        <!-- app -->
+        <div id="contrast-app-aa-fail" class="contrast-app contrast-app-static">
+          <div class="contrast-app-score">Fail</div>
+          <div class="contrast-app-controls">
+            <div class="contrast-app-eyedropper">
+              <svg><use xlink:href="../assets/img/icon-eyedropper.svg#target"></use></svg>
+            </div>
+            <div class=" contrast-app-input contrast-app-input--foreground">b8b8b8</div>
+            <div class="contrast-app-triangles"></div>
+            <div class="contrast-app-eyedropper">
+              <svg><use xlink:href="../assets/img/icon-eyedropper.svg#target"></use></svg>
+            </div>
+            <div class=" contrast-app-input contrast-app-input--background">ffffff</div>
+          </div>
+          <div class="contrast-app-ratio">1.98</div>
+        </div><!-- app -->
+
+        <p>Quite often, failing scores can seem to work nicely within the context of a static design review. But in the context of real world usage, these failing scores can cause problems for the usability of your website or app.</p>
 
         <h2>What about mobile apps and their big sharp retina screens?</h2>
 
