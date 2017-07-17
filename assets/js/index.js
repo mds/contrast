@@ -122,16 +122,8 @@ $( document ).ready(function() {
   // Event Tracking 
   ///////////////////////////////////////////////////////////////
 
-  // $('.twitter').click(function(){ _gs('event', 'Clicked Twitter') });
-  // $('.youtube').click(function(){ _gs('event', 'Clicked YouTube') });
-  // $('.instagram').click(function(){ _gs('event', 'Clicked Instagram') });
-  // $('.facebook').click(function(){ _gs('event', 'Clicked Facebook') });
-  // $('.cta-view-trailer').click(function(){ _gs('event', 'Clicked "Watch Trailer"') });
-  // $('.cta-get-access').click(function(){ _gs('event', 'Clicked "Get Instant Access"') });
-  // $('.cta-three-traits').click(function(){ _gs('event', 'Clicked "I must know those 3 traits"') });
-  // $('.cta-be-able-to-do-that').click(function(){ _gs('event', 'Clicked "Id like to be able to do that"') });
-  // $('.cta-yesvg-please').click(function(){ _gs('event', 'Clicked "Yesvg please"') });
-  // $('.link-come-on-in').click(function(){ _gs('event', 'Clicked "Come on in" link') });
-  // $('.cta-heck-yes').click(function(){ _gs('event', 'Clicked "Oh heck yes"') });
+  $('.contrast-app-store').click(function(){ _gs('event', 'Clicked App Store Btn') });
+  $('.contrast-showcase .contrast-app').click(function(){ _gs('event', 'Clicked the Demo App') });
+
 
 });
