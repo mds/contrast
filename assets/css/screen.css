@@ -2062,7 +2062,8 @@ nav {
   font-weight: 800;
   font-size: 1em;
   line-height: 1.2em;
-  padding: 0 .75em 0 0; }
+  padding: 0 .75em 0 0;
+  width: 2.625em; }
 
 .contrast-app-ratio {
   color: #111112;
