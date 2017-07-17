@@ -124,6 +124,8 @@ $( document ).ready(function() {
 
   $('.contrast-app-store').click(function(){ _gs('event', 'Clicked App Store Btn') });
   $('.contrast-showcase .contrast-app').click(function(){ _gs('event', 'Clicked the Demo App') });
+  $('.contrast-press').click(function(){ _gs('event', 'Downloaded Press Kit') });
+
 
 
 });
