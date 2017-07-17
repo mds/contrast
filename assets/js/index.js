@@ -75,9 +75,9 @@ $( document ).ready(function() {
 
   // If someone tries to click the app, wiggle the appstore button
   $('.contrast-showcase .contrast-app').click(function(){
-    $('.contrast-showcase .contrast-app-store svg').addClass('jiggle');
+    $('.contrast-app-store svg').addClass('jiggle');
     setTimeout(function () {
-      $('.contrast-showcase .contrast-app-store svg').removeClass('jiggle');
+      $('.contrast-app-store svg').removeClass('jiggle');
     }, 1000);
   });
 

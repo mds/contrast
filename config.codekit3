@@ -377,6 +377,16 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/assets\/img\/icon-settings.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/img\/icon-settings.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/assets\/img\/loupe.png": {
 		"ft": 32768,
 		"iS": 60594,
@@ -418,50 +428,6 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
-		},
-	"\/assets\/img\/score-aa-plus.png": {
-		"ft": 32768,
-		"iS": 42292,
-		"oA": 0,
-		"oAP": "\/assets\/img\/score-aa-plus.png",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
-	"\/assets\/img\/score-aa.png": {
-		"ft": 32768,
-		"iS": 41940,
-		"oA": 0,
-		"oAP": "\/assets\/img\/score-aa.png",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
-	"\/assets\/img\/score-aaa.png": {
-		"ft": 32768,
-		"iS": 42293,
-		"oA": 0,
-		"oAP": "\/assets\/img\/score-aaa.png",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
-	"\/assets\/img\/score-fail.png": {
-		"ft": 32768,
-		"iS": 42388,
-		"oA": 0,
-		"oAP": "\/assets\/img\/score-fail.png",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
 		},
 	"\/assets\/img\/soffes.png": {
 		"ft": 32768,

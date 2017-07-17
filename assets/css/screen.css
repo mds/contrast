@@ -1984,11 +1984,11 @@ nav {
 .contrast-app {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   background: yellow;
-  padding: 1em 1.25em;
+  padding: 1em 0.5em 1em 1.25em;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 1fr 2fr 1fr;
-      grid-template-columns: 1fr 2fr 1fr;
+  -ms-grid-columns: 1fr 2fr .5fr .5fr;
+      grid-template-columns: 1fr 2fr .5fr .5fr;
   width: 24.625em;
   border-radius: .25em;
   box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1), 0 0.375em 1em 0 rgba(0, 0, 0, 0.2);
@@ -2061,14 +2061,17 @@ nav {
   color: #111112;
   font-weight: 800;
   font-size: 1em;
-  line-height: 1.2em; }
+  line-height: 1.2em;
+  padding: 0 .75em 0 0; }
 
 .contrast-app-ratio {
   color: #111112;
   font-size: .75em;
-  text-align: right;
+  text-align: left;
+  text-indent: 1.25em;
   line-height: 1.6em;
-  font-weight: 600; }
+  font-weight: 600;
+  width: 5em; }
 
 .contrast-app-controls {
   display: -ms-grid;
@@ -2088,11 +2091,13 @@ nav {
   line-height: 1.2em;
   font-family: native, menlo, monospace; }
 
-.contrast-app svg {
-  width: 2em;
-  height: 1.375em;
-  border-radius: .25em;
-  opacity: .7; }
+.contrast-app-eyedropper {
+  margin-right: .25em; }
+  .contrast-app-eyedropper svg {
+    width: 2em;
+    height: 1.375em;
+    border-radius: .25em;
+    opacity: .7; }
 
 .contrast-app-controls .contrast-app-triangles {
   box-shadow: none;
@@ -2117,6 +2122,14 @@ nav {
             transform: rotate(90deg) scaleX(0.4) scaleY(0.9);
     top: -.1875em;
     right: -.25em; }
+
+.contrast-app-settings svg {
+  width: .75em;
+  height: .75em;
+  display: block;
+  position: relative;
+  top: 0.25em;
+  opacity: .5; }
 
 .contrast-app-var-0 {
   background: yellow !important;
@@ -2745,7 +2758,7 @@ div.contrast-block-text {
       right: -90rem; } }
 
 .contrast-shape-wrapper {
-  overflow: hidden;
+  overflow-x: hidden;
   position: relative;
   height: 40rem;
   width: 100%;
@@ -2869,6 +2882,9 @@ div.contrast-block-text {
   @media (min-width: 640px) {
     .contrast-footer-wrapper {
       padding: 18rem 0; } }
+
+.contrast-page-interior .contrast-footer-wrapper {
+  padding: 2rem 0 16rem; }
 
 footer {
   text-align: center;
