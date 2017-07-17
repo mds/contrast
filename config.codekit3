@@ -500,10 +500,10 @@
 		"oAP": "\/press\/contrast-press-kit.zip",
 		"oF": 0
 		},
-	"\/press\/contrast-press-kit\/About Contrast.text": {
+	"\/press\/contrast-press-kit\/About Contrast.txt": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/press\/contrast-press-kit\/About Contrast.text",
+		"oAP": "\/press\/contrast-press-kit\/About Contrast.txt",
 		"oF": 0
 		},
 	"\/press\/contrast-press-kit\/Contrast App Icon.png": {
@@ -543,47 +543,47 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/press\/contrast-press-kit\/Screenshots\/contrast screenshot 01.png": {
+	"\/press\/contrast-press-kit\/Screenshots\/app store screenshot 01.png": {
 		"ft": 32768,
-		"iS": 267307,
+		"iS": 274006,
 		"oA": 0,
-		"oAP": "\/press\/contrast-press-kit\/Screenshots\/contrast screenshot 01.png",
+		"oAP": "\/press\/contrast-press-kit\/Screenshots\/app store screenshot 01.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/press\/contrast-press-kit\/Screenshots\/contrast screenshot 02.png": {
+	"\/press\/contrast-press-kit\/Screenshots\/app store screenshot 02.png": {
 		"ft": 32768,
-		"iS": 634260,
+		"iS": 199688,
 		"oA": 0,
-		"oAP": "\/press\/contrast-press-kit\/Screenshots\/contrast screenshot 02.png",
+		"oAP": "\/press\/contrast-press-kit\/Screenshots\/app store screenshot 02.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/press\/contrast-press-kit\/Screenshots\/contrast screenshot 03.png": {
+	"\/press\/contrast-press-kit\/Screenshots\/app store screenshot 03.png": {
 		"ft": 32768,
-		"iS": 746736,
+		"iS": 234315,
 		"oA": 0,
-		"oAP": "\/press\/contrast-press-kit\/Screenshots\/contrast screenshot 03.png",
+		"oAP": "\/press\/contrast-press-kit\/Screenshots\/app store screenshot 03.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/press\/contrast-press-kit\/Screenshots\/contrast screenshot 04.png": {
+	"\/press\/contrast-press-kit\/Screenshots\/app store screenshot 04.png": {
 		"ft": 32768,
-		"iS": 618966,
+		"iS": 137065,
 		"oA": 0,
-		"oAP": "\/press\/contrast-press-kit\/Screenshots\/contrast screenshot 04.png",
+		"oAP": "\/press\/contrast-press-kit\/Screenshots\/app store screenshot 04.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
