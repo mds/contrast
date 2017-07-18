@@ -2850,6 +2850,8 @@ div.contrast-block-text {
         font-size: 1.2rem; } }
   .contrast-content p, .contrast-content ul, .contrast-content ol {
     padding-bottom: 1.5rem; }
+  .contrast-content ul, .contrast-content ol {
+    margin-left: 1.5rem; }
   .contrast-content h2 {
     font-size: 1rem;
     font-weight: 500;
@@ -2883,7 +2885,7 @@ div.contrast-block-text {
     border-left: 1px solid rgba(85, 85, 86, 0.5);
     margin: 0 0 1.5rem .25rem; }
     .contrast-content blockquote p {
-      font-size: 1em;
+      font-size: 1.1em;
       padding: 0 0 0 1.5rem; }
 
 .contrast-footer-wrapper {

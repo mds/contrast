@@ -104,19 +104,6 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/assets\/css\/sass\/_content.sass": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 2,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/assets\/css\/sass\/_content.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
 	"\/assets\/css\/sass\/_fonts.sass": {
 		"aP": 0,
 		"bl": 0,
@@ -337,16 +324,6 @@
 		"oF": 2,
 		"oS": 0,
 		"uL": 1
-		},
-	"\/assets\/css\/screen.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/assets\/css\/screen-min.css",
-		"oF": 0,
-		"oS": 3
 		},
 	"\/assets\/img\/app-icon.svg": {
 		"ft": 2097152,
