@@ -15,6 +15,17 @@
 		"oAP": "\/.gitignore",
 		"oF": 0
 		},
+	"\/32.png": {
+		"ft": 32768,
+		"iS": 1398,
+		"oA": 0,
+		"oAP": "\/32.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"\/assets\/css\/sass\/_animate.sass": {
 		"aP": 0,
 		"bl": 0,
