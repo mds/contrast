@@ -1,0 +1,22 @@
+//- index.pug
+extends ../_includes/_layout.pug
+
+block variables
+  - var score = "Fail";
+  - var ratio = "2.8";
+  - var fgColor = "#00EB00";
+  - var bgColor = "#B780F3";
+  - var contrastCard = "https://mds-assets.s3.us-east-1.amazonaws.com/contrast/contrast-check-card.png";
+
+block body
+  body.contrast-page-interior.contrast-page-score
+    block score-card
+      include ../_includes/_score-card.pug
+      .contrast-score-desc
+        p This text fails to pass any tier of contrast accessibility. Scores between 1–2.99 receive <strong>Fail</strong>. This score is valid for all font sizes. For more information, read the <a href="/guide">Contrast Guide</a>.
+        include ../_includes/_badge.pug
+
+    block analytics
+      include ../_includes/_analytics.pug
+
+

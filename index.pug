@@ -1,0 +1,23 @@
+//- index.pug
+extends _includes/_layout.pug
+
+block variables
+  - var contrastCard = "https://mds-assets.s3.us-east-1.amazonaws.com/contrast/contrast-check-card.png?ref=cb-1";
+
+block title
+  title Contrast Checker
+
+block body
+  body.contrast-page-interior.contrast-page-score
+    .contrast-content
+        <ul>
+          <li><a href="/aaa">AAA</a></li>
+          <li><a href="/aa">AA</a></li>
+          <li><a href="/aa-large">AA+</a></li>
+          <li><a href="/fail">Fail</a></li>
+          <li><a href="/error">Error</a></li>
+        </ul>
+
+    block analytics
+      include _includes/_analytics.pug
+

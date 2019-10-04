@@ -1,0 +1,67 @@
+*, *:before, *:after
+  box-sizing: border-box
+
+*::-moz-selection
+  background: lightgrey
+  outline: 1px solid red
+
+*::selection
+  background: lightgrey
+
+body
+  font-size: 16px
+  +font-rubik
+  +large
+    margin-top: 4rem
+
+strong
+  font-weight: 500
+
+h1, h2, h3, h4, h5, h6
+  font-weight: 400
+  color: $color-dark
+
+h1
+  font-size: 3.75rem
+  letter-spacing: -.05rem
+
+h2
+  font-size: 2rem
+  padding: 2rem 0
+
+  +small
+    font-size: 2.5rem
+
+.body-copy span
+  color: black
+  font-style: italic
+
+p, ul, li
+  font-size: 1rem
+  line-height: 1.5em
+  color: $color-medium
+
+ul
+  list-style-type: square
+
+ol
+  list-style-type: decimal
+
+ul.contrast-ul-emoji
+  list-style-type: none
+
+svg
+  width: 100%
+
+img
+  width: 100%
+  color: white
+
+code
+  font-size: .875rem
+  padding: .125rem .25rem
+  background: rgba(51, 51, 52, 0.05)
+  color: #df0050
+  box-shadow: 0 0 0 1px rgba(51, 51, 52, 0.2)
+  border-radius: 2px
+  font-family: native, menlo, monospace

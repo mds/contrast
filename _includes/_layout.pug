@@ -1,0 +1,43 @@
+head
+
+  block variables
+
+  block title
+    title #{score} – #{ratio}
+
+  meta(charset='utf-8')
+  meta(name='viewport' content='width=device-width, initial-scale=1, maximum-scale=1')
+  meta(name='description' content='Prototype')
+  meta(name='HandheldFriendly' content='True')
+  meta(name='MobileOptimized' content='320')
+  meta(name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui')
+
+  link(rel='stylesheet' href='../../_assets/css/screen.css')
+  link(href='https://fonts.googleapis.com/css?family=Rubik:400,500,700' rel='stylesheet')
+  meta(name='description' content='A macOS app for quick access to WCAG color contrast ratios')
+  link(rel='shortcut icon' href='favicon.ico')
+
+  meta(itemprop='name' content='Contrast for UI')
+  meta(itemprop='description' content='A macOS app for quick access to WCAG color contrast ratios.')
+  meta(itemprop='image' content=contrastCard)
+
+  meta(name='twitter:card' content='summary_large_image')
+  meta(name='twitter:site' content='@usecontrast')
+  meta(name='twitter:title' content='Contrast for UI')
+  meta(name='twitter:description' content='A macOS app for quick access to WCAG color contrast ratios.')
+  meta(name='twitter:creator' content='@usecontrast')
+  meta(name='twitter:image:src' content=contrastCard)
+
+  meta(property='og:title' content='Contrast for UI')
+  meta(property='og:type' content='article')
+  meta(property='og:url' content='http://usecontrast.com')
+  meta(property='og:image' content=contrastCard)
+  meta(property='og:description' content='A macOS app for quick access to WCAG color contrast ratios.')
+  meta(property='og:site_name' content='Contrast for UI')
+
+  block style
+    style.
+      .contrast-score h2, .contrast-score h3, .contrast-data h4 { color: #{fgColor}; }
+      .contrast-score-content { background: #{bgColor};}
+
+block body

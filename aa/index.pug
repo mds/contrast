@@ -1,0 +1,21 @@
+//- index.pug
+extends ../_includes/_layout.pug
+
+block variables
+  - var score = "AA";
+  - var ratio = "4.53";
+  - var fgColor = "#FFFFFF"; //- set foreground
+  - var bgColor = "#EE0000"; //- set background
+  - var contrastCard = "https://mds-assets.s3.us-east-1.amazonaws.com/contrast/contrast-check-card.png";
+
+block body
+  body.contrast-page-interior.contrast-page-score
+    block score-card
+      include ../_includes/_score-card.pug
+      .contrast-score-desc
+        p This text passes the middle tier of contrast accessibility. Scores between 4.5–7.49 receive <strong>AA</strong>. This score is valid for all font sizes. For more information, read the  <a href="/guide">Contrast Guide</a>.
+        include ../_includes/_badge.pug
+
+    block analytics
+      include ../_includes/_analytics.pug
+
