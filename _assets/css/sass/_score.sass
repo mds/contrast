@@ -4,13 +4,15 @@
   height: 20px
   margin: auto
 
+.contrast-logo
+  padding-top: 2rem
+
 .contrast-page-score nav ul li
   padding-right: .5rem
 
 .contrast-score-content
   width: 100%
   margin: auto
-  padding: 2rem
   text-align: center
   position: relative
   margin-bottom: 2rem
@@ -41,14 +43,16 @@
   padding: .5rem
 
 .contrast-data
-  position: absolute
-  bottom: 0
-  left: 0
+  max-width: 60rem
+  margin: auto
   width: 100%
   text-transform: uppercase
   display: grid
   grid-template-columns: 1fr 1fr 1fr
-  padding: 2rem 2rem
+  padding: 0 2rem 2rem
+  align-items: center
+  // background: red
+
 
 .contrast-data h4
   font-size: 1rem
@@ -73,6 +77,7 @@
   grid-row-gap: 2.5rem
   position: relative
   padding: 0 2rem
+  // background: red
   +small
     grid-template-columns: .75fr 1fr
 
