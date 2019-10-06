@@ -408,6 +408,14 @@
 		"oAP": "/favicon.ico",
 		"oF": 0
 		},
+	"/goo.txt": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/goo.txt",
+		"oF": 0
+		},
 	"/index.html": {
 		"cB": 0,
 		"ft": 8192,
